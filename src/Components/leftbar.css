@@ -1,0 +1,18 @@
+.leftbar {
+    flex: 3;
+    height: calc(100vh - 51px);
+    border-right: solid 1px lightgray;
+    font-family: sans-serif;
+    width: 200px;
+    background-color: white;
+}
+  
+.leftbarWrapper{
+    padding: 30px;
+}
+  
+@media only screen and (max-width: 400px){
+    .leftbar{
+      flex: 1;
+    }
+}
